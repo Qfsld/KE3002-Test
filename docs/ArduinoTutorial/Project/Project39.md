@@ -8,7 +8,7 @@
 
 ## 2.实验器材
 
-- keyes brick TEMT6000光线传感器*1
+- keyes brick 光敏传感器*1
 
 - keyes brick LED模块*1
 

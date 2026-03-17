@@ -29,16 +29,17 @@ int buzzer = 3; //定义蜂鸣器接管脚D3
 
 void setup() 
 {
-  pinMode(3, OUTPUT);//设置输出模式
+  pinMode(buzzer, OUTPUT);//设置输出模式
 }
 
 void loop() 
 {
-  digitalWrite(3, HIGH); //发声
+  digitalWrite(buzzer, HIGH); //发声
   delay(1000);
-  digitalWrite(3, LOW); //停止发声
+  digitalWrite(buzzer, LOW); //停止发声
   delay(1000);
 }
+
 ```
 
 ## 5.代码说明

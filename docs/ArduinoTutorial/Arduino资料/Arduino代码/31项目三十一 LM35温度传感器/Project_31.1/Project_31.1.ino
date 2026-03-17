@@ -1,5 +1,5 @@
 int lm35Pin = A3;
-float temperture = 0;
+float temperature = 0;
 
 void setup() {
   Serial.begin(9600);  //设置波特率9600
@@ -11,9 +11,9 @@ void setup() {
 void loop() {
   int value = analogRead(A3);  //传感器接A3
   //计算温度值
-  temperture = ((value * 5.0) * 100) / 1024;
-  Serial.print("Temperture:");
-  Serial.print(temperture);
+  temperature = ((value * 5.0) * 100) / 1024;
+  Serial.print("Temperature:");
+  Serial.print(temperature);
   Serial.println(" C");  //换行打印
   delay(100);            //加延时100MS
 }

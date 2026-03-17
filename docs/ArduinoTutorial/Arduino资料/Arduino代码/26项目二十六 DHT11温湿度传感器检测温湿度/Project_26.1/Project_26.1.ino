@@ -1,6 +1,6 @@
 #include <dht11.h>  //include the library code:
 dht11 DHT;
-#define DHT11_PIN 3 //定义DHT11为数子口3
+#define DHT11_PIN 3 //定义DHT11为数字口3
 
 void setup() 
 {
